@@ -31,7 +31,7 @@
               </v-col>
               <v-col cols="12" sm="6">
                 <v-autocomplete
-                  :items="['Skiing', 'Ice hockey', 'Soccer', 'Basketball', 'Hockey', 'Reading', 'Writing', 'Coding', 'Basejump']"
+                  :items="['Telefon', 'Faks', 'Soccer', 'E-posta', 'Sosyal Medya', 'Reading', 'Writing', 'Coding', 'Basejump']"
                   label="Interests"
                   multiple
                 ></v-autocomplete>

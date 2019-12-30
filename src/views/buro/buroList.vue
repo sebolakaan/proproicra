@@ -35,7 +35,7 @@
           <hr>
         </v-card>
        <v-card class="pa-2" outlined tile> 
-               <router-link to="/buroEkle/10"><v-btn class="ma-2" tile color="green" dark>Büro Ekle</v-btn></router-link>
+               <router-link to="/buro"><v-btn class="ma-2" tile color="green" dark>Büro Ekle</v-btn></router-link>
         </v-card>
       </v-col>
        </v-row>

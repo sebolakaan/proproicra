@@ -50,11 +50,11 @@
         <v-expansion-panel-content>
            <addpersonel></addpersonel>
            <v-card-title>
-                              Personel Listesi
-                              <v-spacer></v-spacer>
-                              <v-text-field  v-model="search" label="Search" single-line hide-details></v-text-field>
-                            </v-card-title>
-                            <v-data-table :headers="headers" :items="personeller" :search="search"></v-data-table>
+              Personel Listesi
+              <v-spacer></v-spacer>
+              <v-text-field  v-model="search" label="Search" single-line hide-details></v-text-field>
+            </v-card-title>
+            <v-data-table :headers="headers" :items="personeller" :search="search"></v-data-table>
         </v-expansion-panel-content>
       </v-expansion-panel>
 
@@ -102,18 +102,14 @@
             </v-card> 
         </v-card>
       </v-col>
-      <v-col
-        cols="6"
-        md="4"
-         style="padding-right:25px" 
-      >
+      <v-col cols="6" md="4" style="padding-right:25px">
         <v-card class="pa-2" outlined tile> 
           <p  class="cols=12; md=4;">İşlemler</p>
           <hr>
         </v-card>
        <v-card class="pa-2" outlined tile> 
-               <router-link to="/buroEkle/10"> <v-btn class="ma-2" tile color="green" dark>Büro Ekle</v-btn></router-link>
-               <router-link to="/buroEkle"> <v-btn class="ma-2" tile color="red" dark>Büro Sil</v-btn></router-link>
+               <router-link to="/buro"> <v-btn class="ma-2" tile color="green" dark>Büro Ekle</v-btn></router-link>
+               <router-link to="/buro/1"> <v-btn class="ma-2" tile color="red" dark>Büro Sil</v-btn></router-link>
                <router-link to="/burolar"> <v-btn class="ma-2" tile color="orange" dark>Listele</v-btn></router-link>
         </v-card>
       </v-col>
